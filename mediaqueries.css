@@ -1,0 +1,195 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    .arrow-footer{
+      display: none;
+    }
+    .profile-arrow{
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .section__text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px; /* Adjust padding as needed */
+      text-align: center; /* Center text inside the container */
+      box-sizing: border-box;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+    #theme-switch {
+      top: 35px;   /* Adjust top position */
+      left: 50px;  /* Adjust left position */
+      
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      /* height: 83vh; */
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+    #theme-switch {   /* Further adjust top position if needed */
+      left: 20px;  /* Keep the button on the left */
+    }
+    .animated-title span{
+      font-size: px; /* Adjust font size if needed */
+    }
+    .animated-title span::after {
+      width: 100%; /* Ensure the width of ::after matches the text */
+      right: 0; /* Align the ::after element with the text */
+      animation: cursor .8s infinite, typing 20s steps(10) infinite; /* Adjust the typing animation steps */
+    }
+  }
+
+  @media (max-width: 530px) {
+    .animated-title span{
+      font-size: 28px; /* Adjust font size if needed */
+    }
+  
+    .animated-title span::after {
+      width: 100%; /* Ensure the width of ::after matches the text */
+      right: 0; /* Align the ::after element with the text */
+      animation: cursor .8s infinite, typing 20s steps(10) infinite; /* Adjust the typing animation steps */
+    }
+  }
+
+  /* @media (max-width: 830px) {
+    .wrapper {
+      margin-top: 400px;
+    }
+
+    .card > .row {
+      color: var(--text-color);
+      display: flex;
+      flex-wrap: nowrap;
+    }
+  
+    .container {
+      flex-direction: column;
+      gap: 2rem;
+      
+    }
+  
+    .slide {
+      width: 400px;
+      align-items: flex-start;
+    }
+  
+    .slide > .row {
+      flex-direction: column;
+    }
+  
+    .slide > .row > .icon-1,
+    .icon-2,
+    .icon-3 {
+      width: 50px;
+       }
+  
+    .slide {
+      height: 80px;
+    }
+  
+    .slide > .row > .description {
+      height: 500px;
+      width: 400px;
+    }
+  
+    input:checked + label {
+      height: 1600px;
+      width: 600px;
+    } */
+
+  /* } */
